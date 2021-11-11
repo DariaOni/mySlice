@@ -25,6 +25,6 @@ let err = [33, 12, 65, 28, 14, 32];
 let part = err.mySliceMethod(1, 3);
 
 var fruits = ['Банан', 'Апельсин', 'Лимон', 'Яблоко', 'Манго'];
-var citrus = fruits.slice(1, 3);
+var citrus = fruits.mySliceMethod(1, 3);
 
 console.log(citrus);
